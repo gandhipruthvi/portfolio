@@ -1,0 +1,11 @@
+.contact {
+  flex-direction: column;
+}
+
+.contact__grid {
+  display: flex;
+}
+
+.contact__item {
+  margin: 0.2rem;
+}
