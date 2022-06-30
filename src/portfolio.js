@@ -10,7 +10,8 @@ const about = {
   role: 'Full-Stack Developer',
   description:
     'Information Technology background, graduated from Humber College. An Indian guy with great problem-solving skills and who loves to code. Welcome to my portfolio.👋🏽',
-  resume: 'https://example.com',
+  resume:
+    'https://docs.google.com/document/d/1CVaLTcWdMephgejRNuSe2kDNqcaZj8ePwrWcACZjixE/edit?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pruthvigandhi/',
     github: 'https://github.com/gandhipruthvi',
