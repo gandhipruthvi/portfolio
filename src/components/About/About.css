@@ -38,6 +38,18 @@
   margin-bottom: 2rem;
 }
 
+.about__stack {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.about__stack-item {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;

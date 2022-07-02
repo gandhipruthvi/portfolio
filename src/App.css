@@ -73,7 +73,7 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-weight: 500;
 }
 
@@ -87,7 +87,7 @@ main {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   transition: transform 0.2s ease-in-out;
 }
 
@@ -113,7 +113,7 @@ main {
   left: 0;
   top: 0;
   z-index: -1;
-  transition: right 0.2s ease-in-out;
+  transition: width 0.3s ease-out;
 }
 
 .btn--outline:hover:before,
@@ -143,6 +143,14 @@ main {
 
 .btn--icon:active {
   transform: translateY(-5px);
+}
+
+.section {
+  min-height: 90vh;
+}
+
+.section.contact {
+  min-height: auto !important;
 }
 
 @media (max-width: 600px) {

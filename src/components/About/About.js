@@ -1,14 +1,15 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import uniqid from 'uniqid'
 import { about } from '../../portfolio'
 import './About.css'
 import profileImg from '../../assests/images/profile2.JPG'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, social, stack } = about
 
   return (
-    <div className='about center'>
+    <div className='section about center'>
       <img
         src={profileImg}
         alt='Boy stand with a smile'
@@ -21,6 +22,16 @@ const About = () => {
       )}
 
       {role && <h2 className='about__role'>A {role}.</h2>}
+      {stack && (
+        <ul className='about__stack'>
+          {stack.map((item) => (
+            <li key={uniqid()} className='about__stack-item'>
+              <i className={item.icon} style={{ color: item.color }} />
+              <span className='icon__name'>{item.name}</span>
+            </li>
+          ))}
+        </ul>
+      )}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>

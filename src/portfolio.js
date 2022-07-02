@@ -11,11 +11,68 @@ const about = {
   description:
     'Information Technology background, graduated from Humber College. An Indian guy with great problem-solving skills and who loves to code. Welcome to my portfolio.👋🏽',
   resume:
-    'https://docs.google.com/document/d/1CVaLTcWdMephgejRNuSe2kDNqcaZj8ePwrWcACZjixE/edit?usp=sharing',
+    'https://drive.google.com/file/d/19MxCvaBpJTS3K_AAIrmRvIJ6pIsMUOkm/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pruthvigandhi/',
     github: 'https://github.com/gandhipruthvi',
   },
+  stack: [
+    {
+      name: 'React.js',
+      icon: 'fa-brands fa-react fa-3x',
+      color: '#4cd8fc',
+    },
+    {
+      name: 'Node.js',
+      icon: 'fa-brands fa-node-js fa-3x',
+      color: '#24B35D',
+    },
+    {
+      name: 'Databases',
+      icon: 'fa-solid fa-database fa-3x',
+      color: '#4cd8fc',
+    },
+    {
+      name: 'Bootstrap',
+      icon: 'fa-brands fa-bootstrap fa-3x',
+      color: '#6D11EE',
+    },
+    {
+      name: 'HTML 5',
+      icon: 'fa-brands fa-html5 fa-3x',
+      color: '#E44D26',
+    },
+    {
+      name: 'CSS 3',
+      icon: 'fa-brands fa-css3 fa-3x',
+      color: '#6563FF',
+    },
+    {
+      name: 'Javascript',
+      icon: 'fa-brands fa-js-square fa-3x',
+      color: '#F0DB4F',
+    },
+    {
+      name: 'Python',
+      icon: 'fa-brands fa-python fa-3x',
+      color: '#3572A3',
+    },
+    {
+      name: 'Android',
+      icon: 'fa-brands fa-android fa-3x',
+      color: '#2DDF84',
+    },
+    {
+      name: 'Swift',
+      icon: 'fa-brands fa-swift fa-3x',
+      color: '#F05237',
+    },
+    {
+      name: 'Github',
+      icon: 'fa-brands fa-github fa-3x',
+      color: '#181616',
+    },
+  ],
 }
 
 const experiences = [
@@ -25,7 +82,6 @@ const experiences = [
     position: 'Web Developer Internship',
     description:
       '• Working with a business for over 4 months to develop a unique application to serve their customers. • Building a web app using WordPress as our CMS, using existing plugins, and creating unique methods and plugins of our own. • Working closely with the CEO to understand his requirements and mainly working on the backend for the team. • Helping other teammates to integrate the project with the database.',
-    stack: ['WordPress', 'MySQL', 'Bootstrap', 'HTML', 'JavaScript', 'PHP'],
     employeer: 'Cyglera Health Systems Inc, Niagara Falls, Ontario, Canada',
     duration: 'Jan 2022 - Apr 2022',
   },
@@ -33,17 +89,6 @@ const experiences = [
     position: 'Juinor PHP Web Developer',
     description:
       '• A core team member, working mainly on the Laravel projects. • Developing Laravel websites and integrating them with front-end frameworks like Vue.js. • Working on different online websites creating platforms such as WordPress, Shopify, and many more. • Creating RESTful services for android applications and deploying websites using different web hosting. • Integrating social media logins for different web applications depending on customer requirements. • Handling the communication with the consumers to meet the website requirements.',
-    stack: [
-      'AJAX',
-      'jQuery',
-      'Bootstrap',
-      'HTML',
-      'JavaScript',
-      'PHP',
-      'Laravel',
-      'MySQL',
-      'phpMyAdmin',
-    ],
     employeer: 'Daydreamsoft LLP, Surat, Gujarat, India',
     duration: 'Oct 2019 - Jul 2020',
   },
@@ -51,7 +96,6 @@ const experiences = [
     position: 'Student Internship',
     description:
       "• Created UrbanShiksha website, an online tutoring platform on CodeIgniter as part of my bachelor's final project",
-    stack: ['jQuery', 'MySQL', 'Bootstrap', 'JavaScript', 'PHP', 'CodeIgniter'],
     employeer: 'Ashvi Consultancy Service, Surat, Gujarat, India',
     duration: 'Dec 2018 - Apr 2019',
   },
@@ -61,10 +105,31 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Best Bid Website',
+    name: 'Best Bid',
     description:
       'Developed an online bidding platform in React.js where people can come and easily enjoy the bidding experience without leaving their place. Our website includes a specific system where users can bid on any product at a given minimum price. And as per the original bidding system, we have set up a logic where once the user has set the bid, if after 2 hours no other user is bidding on that product then the product is sold to the last bidder (highest bidder).',
-    stack: ['React.js', 'Node.js', 'Express Server', 'MongoDB', 'Bootstrap'],
+    stack: [
+      {
+        name: 'React.js',
+        icon: 'fa-brands fa-react fa-3x',
+        color: '#4cd8fc',
+      },
+      {
+        name: 'Node.js',
+        icon: 'fa-brands fa-node-js fa-3x',
+        color: '#24B35D',
+      },
+      {
+        name: 'MongoDB',
+        icon: 'fa-solid fa-database fa-3x',
+        color: '#4cd8fc',
+      },
+      {
+        name: 'Bootstrap',
+        icon: 'fa-brands fa-bootstrap fa-3x',
+        color: '#6D11EE',
+      },
+    ],
     sourceCode: 'https://github.com/gandhipruthvi/MERN_Project',
     livePreview: '',
   },
@@ -72,7 +137,23 @@ const projects = [
     name: 'Urban Shiksha',
     description:
       'Built a website for students to take online view lectures and take different courses to get certified. Developed a tutor side for tutors to upload their videos explaining different courses and technologies',
-    stack: ['PHP', 'MySQL', 'CodeIgniter', 'Bootstrap', 'phpMyAdmin'],
+    stack: [
+      {
+        name: 'PHP',
+        icon: 'fa-brands fa-php fa-3x',
+        color: '#7377AD',
+      },
+      {
+        name: 'database',
+        icon: 'fa-solid fa-database fa-3x',
+        color: '#4cd8fc',
+      },
+      {
+        name: 'Bootstrap',
+        icon: 'fa-brands fa-bootstrap fa-3x',
+        color: '#6D11EE',
+      },
+    ],
     sourceCode: 'https://github.com/gandhipruthvi/UrbanShiksha',
     livePreview: '',
   },
@@ -88,7 +169,7 @@ const educations = [
     description:
       'Built a website for students to take online view lectures and take different courses to get certified. Developed a tutor side for tutors to upload their videos explaining different courses and technologies',
     date: 'Sep 2020 - Apr 2022',
-    grades: '89.9',
+    grades: '89.9 GPA',
   },
   {
     degree: 'Bachelor of Science in Information Technology',
@@ -97,7 +178,7 @@ const educations = [
     description:
       'Built a website for students to take online view lectures and take different courses to get certified. Developed a tutor side for tutors to upload their videos explaining different courses and technologies',
     date: 'Aug 2016 - Apr 2019',
-    grades: '7.34',
+    grades: '7.34 GPA',
   },
 ]
 

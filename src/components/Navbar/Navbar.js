@@ -30,7 +30,7 @@ const Navbar = () => {
     } else {
       window.scrollTo({
         left: 0,
-        top: document.querySelector(target).offsetTop - 70,
+        top: document.querySelector(target).offsetTop - 80,
       })
     }
   }
