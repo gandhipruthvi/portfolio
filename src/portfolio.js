@@ -107,7 +107,7 @@ const projects = [
   {
     name: 'Best Bid',
     description:
-      'Developed an online bidding platform in React.js where people can come and easily enjoy the bidding experience without leaving their place. Our website includes a specific system where users can bid on any product at a given minimum price. And as per the original bidding system, we have set up a logic where once the user has set the bid, if after 2 hours no other user is bidding on that product then the product is sold to the last bidder (highest bidder).',
+      '• Developed a website that took the bidding experience from in-person to online. The pandemic gave us the idea to recreate the bidding system, where people can easily enjoy bidding from their homes.•	Leading a team of 5 people, we created the rules which would replicate the official bidding system but made it more flexible.•	Implemented a rule where 2 hours is the winning time difference, minimum price increase, and fixed starting amount.•	Architected the whole front-end design in React.js, engineered a REST API in Express.js, and hosted the website on Heroku.',
     stack: [
       {
         name: 'React.js',
@@ -134,9 +134,33 @@ const projects = [
     livePreview: '',
   },
   {
+    name: 'Calisthenics',
+    description:
+      '•	With a team of 5 people, we assembled a fitness app that focused on exercising using our body weight.•	Having a fit and healthy body increases brain functioning by 2 times, hence we developed an app using which people can exercise in their homes without any equipment.•	 Implemented features like a detailed schedule for personal workouts depending on the measurements of the body, video representation of exercises for better understanding, receiving awards on successful completion of routines, and sharing the achievements with your friends on social media.',
+    stack: [
+      {
+        name: 'Android',
+        icon: 'fa-brands fa-android fa-3x',
+        color: '#2DDF84',
+      },
+      {
+        name: 'Java',
+        icon: 'fa-brands fa-java fa-3x',
+        color: '#507E9B',
+      },
+      {
+        name: 'Firebase',
+        icon: 'fa-solid fa-fire fa-3x',
+        color: '#F74803',
+      },
+    ],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
     name: 'Urban Shiksha',
     description:
-      'Built a website for students to take online view lectures and take different courses to get certified. Developed a tutor side for tutors to upload their videos explaining different courses and technologies',
+      '•	Coded an online tutoring platform where students can learn from tutors around the world.•	Segregated the website into 2 parts, the student portal and the tutor portal.•	Implemented MVC architecture, with online video viewing capabilities.•	Integrated a payment system that would motivate tutors to create more content helping students to learn things.',
     stack: [
       {
         name: 'PHP',
@@ -166,8 +190,7 @@ const educations = [
     degree: 'Postgraduate with Honours in Information Technology',
     insitution: 'Humber College Institute of Technology & Advanced Learning',
     address: 'Toronto, Ontario, Canada',
-    description:
-      'Built a website for students to take online view lectures and take different courses to get certified. Developed a tutor side for tutors to upload their videos explaining different courses and technologies',
+    description: '',
     date: 'Sep 2020 - Apr 2022',
     grades: '89.9 GPA',
   },
@@ -175,8 +198,7 @@ const educations = [
     degree: 'Bachelor of Science in Information Technology',
     insitution: 'Veer Narmad South Gujarat University',
     address: 'Surat, Gujarat, India',
-    description:
-      'Built a website for students to take online view lectures and take different courses to get certified. Developed a tutor side for tutors to upload their videos explaining different courses and technologies',
+    description: '',
     date: 'Aug 2016 - Apr 2019',
     grades: '7.34 GPA',
   },

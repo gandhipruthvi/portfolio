@@ -41,6 +41,11 @@
 .about__stack {
   display: flex;
   margin-top: 1rem;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about__stack-item {
