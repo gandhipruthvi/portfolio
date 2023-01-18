@@ -1,20 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://gandhipruthvi.github.io/portfolio',
+  homepage: '.',
   title: 'PG.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pruthvi Gandhi',
-  role: 'Full-Stack Developer',
+  role: 'Full-Stack Developer/Web Developer',
   description:
-    'Information Technology background, graduated from Humber College. An Indian guy with great problem-solving skills and who loves to code. Welcome to my portfolio.👋🏽',
+    'Full Stack Web Developer, graduated from Humber College. An Indian guy with great problem-solving skills and innovative ideas who loves to code. Welcome to my portfolio.👋🏽',
   resume:
     'https://drive.google.com/file/d/19MxCvaBpJTS3K_AAIrmRvIJ6pIsMUOkm/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pruthvigandhi/',
-    github: 'https://github.com/gandhipruthvi',
+    github: 'https://github.com/gandhipruthvi?tab=repositories',
   },
   stack: [
     {
@@ -33,6 +33,21 @@ const about = {
       color: '#4cd8fc',
     },
     {
+      name: 'Javascript',
+      icon: 'fa-brands fa-js-square fa-3x',
+      color: '#F0DB4F',
+    },
+    {
+      name: 'AWS',
+      icon: 'fa-brands fa-aws fa-3x',
+      color: '#4cd8fc',
+    },
+    {
+      name: 'Python',
+      icon: 'fa-brands fa-python fa-3x',
+      color: '#3572A3',
+    },
+    {
       name: 'Bootstrap',
       icon: 'fa-brands fa-bootstrap fa-3x',
       color: '#6D11EE',
@@ -46,26 +61,6 @@ const about = {
       name: 'CSS 3',
       icon: 'fa-brands fa-css3 fa-3x',
       color: '#6563FF',
-    },
-    {
-      name: 'Javascript',
-      icon: 'fa-brands fa-js-square fa-3x',
-      color: '#F0DB4F',
-    },
-    {
-      name: 'Python',
-      icon: 'fa-brands fa-python fa-3x',
-      color: '#3572A3',
-    },
-    {
-      name: 'Android',
-      icon: 'fa-brands fa-android fa-3x',
-      color: '#2DDF84',
-    },
-    {
-      name: 'Swift',
-      icon: 'fa-brands fa-swift fa-3x',
-      color: '#F05237',
     },
     {
       name: 'Github',
@@ -82,20 +77,20 @@ const experiences = [
     position: 'Web Developer Internship',
     description:
       '• Working with a business for over 4 months to develop a unique application to serve their customers. • Building a web app using WordPress as our CMS, using existing plugins, and creating unique methods and plugins of our own. • Working closely with the CEO to understand his requirements and mainly working on the backend for the team. • Helping other teammates to integrate the project with the database.',
-    employeer: 'Cyglera Health Systems Inc, Niagara Falls, Ontario, Canada',
+    employeer: 'Cyglera Health Systems Inc., Niagara Falls, Ontario, Canada',
     duration: 'Jan 2022 - Apr 2022',
   },
   {
-    position: 'Juinor PHP Web Developer',
+    position: 'Full Stack Developer',
     description:
       '• A core team member, working mainly on the Laravel projects. • Developing Laravel websites and integrating them with front-end frameworks like Vue.js. • Working on different online websites creating platforms such as WordPress, Shopify, and many more. • Creating RESTful services for android applications and deploying websites using different web hosting. • Integrating social media logins for different web applications depending on customer requirements. • Handling the communication with the consumers to meet the website requirements.',
     employeer: 'Daydreamsoft LLP, Surat, Gujarat, India',
     duration: 'Oct 2019 - Jul 2020',
   },
   {
-    position: 'Student Internship',
+    position: 'Web Developer Intern',
     description:
-      "• Created UrbanShiksha website, an online tutoring platform on CodeIgniter as part of my bachelor's final project",
+      '• Developed an online tutoring website, allowing students to learn from anyone around the world, while the tutors can teach the whole world. • Implemented 2 interface designs for two different users, along with a payment system for tutors to get fruitful value for sharing their knowledge. • Designed a complex database to attribute all the requirements and implemented MVC architecture to comply with modern software practices.',
     employeer: 'Ashvi Consultancy Service, Surat, Gujarat, India',
     duration: 'Dec 2018 - Apr 2019',
   },
@@ -104,6 +99,35 @@ const experiences = [
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Portfolio',
+    description:
+      '• A simple personal portfolio websites which you are currently viewing. Is developed in React with good features like light/dark mode(try clicking on the top right corner sun symbol. P.S. ), tab segments, responsive views and many more. It is hosted on AWS Cloud using continuos integration and continuous deployment(CI/CD) on Amazon S3 Bucket',
+    stack: [
+      {
+        name: 'React.js',
+        icon: 'fa-brands fa-react fa-3x',
+        color: '#4cd8fc',
+      },
+      {
+        name: 'Node.js',
+        icon: 'fa-brands fa-node-js fa-3x',
+        color: '#24B35D',
+      },
+      {
+        name: 'MongoDB',
+        icon: 'fa-solid fa-database fa-3x',
+        color: '#4cd8fc',
+      },
+      {
+        name: 'Bootstrap',
+        icon: 'fa-brands fa-bootstrap fa-3x',
+        color: '#6D11EE',
+      },
+    ],
+    sourceCode: 'https://github.com/gandhipruthvi/MERN_Project',
+    livePreview: '',
+  },
   {
     name: 'Best Bid',
     description:
@@ -136,7 +160,7 @@ const projects = [
   {
     name: 'Calisthenics',
     description:
-      '•	With a team of 5 people, we assembled a fitness app that focused on exercising using our body weight.•	Having a fit and healthy body increases brain functioning by 2 times, hence we developed an app using which people can exercise in their homes without any equipment.•	 Implemented features like a detailed schedule for personal workouts depending on the measurements of the body, video representation of exercises for better understanding, receiving awards on successful completion of routines, and sharing the achievements with your friends on social media.',
+      '•	With a team of 5 people, assembled a fitness app that focused on exercising using our body weight. •	Having a fit and healthy body increases brain functioning by 2 times, hence we developed an app using which people can exercise in their homes without any equipment. •	Implemented features like a detailed schedule for personal workouts depending on the measurements of the body, video representation of exercises for better understanding, receiving awards on successful completion of routines, and sharing the achievements with your friends on social media.',
     stack: [
       {
         name: 'Android',
@@ -160,7 +184,7 @@ const projects = [
   {
     name: 'Urban Shiksha',
     description:
-      '•	Coded an online tutoring platform where students can learn from tutors around the world.•	Segregated the website into 2 parts, the student portal and the tutor portal.•	Implemented MVC architecture, with online video viewing capabilities.•	Integrated a payment system that would motivate tutors to create more content helping students to learn things.',
+      '• Coded an online tutoring platform where students can learn from tutors around the world. •	Segregated the website into 2 parts, the student portal and the tutor portal. •	Implemented MVC architecture, with online video viewing capabilities. •	Integrated a payment system that would motivate tutors to create more content helping students to learn things.',
     stack: [
       {
         name: 'PHP',
@@ -208,24 +232,28 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'JavaScript',
+  'React',
+  'Express.js',
+  'SQL',
+  'MongoDB',
+  'Firebase',
+  'Vue.js',
+  'Node.js',
+  'Laravel',
+  'AWS Cloud',
+  'CI/CD',
+  'S3 Bucket',
+  'Elastic Beansstalk',
   'PHP',
   'HTML',
   'CSS',
   'XML',
   'Oracle SQL',
-  'SQL',
   'JSON',
-  'React',
   'jQuery',
   'Bootstrap',
-  'Vue.js',
-  'Node.js',
-  'Laravel',
-  'Express.js',
-  'MongoDB',
   'Oracle Database',
   'phpMyAdmin',
-  'Firebase',
   'SQL Server',
   'MySQL',
   'WordPress',
