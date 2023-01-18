@@ -22,16 +22,18 @@ const Navbar = () => {
     setShowNavList(!showNavList)
     e.preventDefault()
     const target = e.target.getAttribute('href')
-    if (target === '#about') {
-      window.scrollTo({
-        left: 0,
-        top: document.querySelector(target),
-      })
-    } else {
-      window.scrollTo({
-        left: 0,
-        top: document.querySelector(target).offsetTop - 80,
-      })
+    if (target) {
+      if (target === '#about') {
+        window.scrollTo({
+          left: 0,
+          top: document.querySelector(target),
+        })
+      } else {
+        window.scrollTo({
+          left: 0,
+          top: document.querySelector(target).offsetTop - 80,
+        })
+      }
     }
   }
 

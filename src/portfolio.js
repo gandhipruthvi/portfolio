@@ -13,7 +13,7 @@ const about = {
   resume:
     'https://drive.google.com/file/d/19MxCvaBpJTS3K_AAIrmRvIJ6pIsMUOkm/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/pruthvigandhi/',
+    linkedin: 'https://www.linkedin.com/in/pruthvi-gandhi/',
     github: 'https://github.com/gandhipruthvi?tab=repositories',
   },
   stack: [
@@ -110,13 +110,8 @@ const projects = [
         color: '#4cd8fc',
       },
       {
-        name: 'Node.js',
-        icon: 'fa-brands fa-node-js fa-3x',
-        color: '#24B35D',
-      },
-      {
-        name: 'MongoDB',
-        icon: 'fa-solid fa-database fa-3x',
+        name: 'AWS',
+        icon: 'fa-brands fa-aws fa-3x',
         color: '#4cd8fc',
       },
       {
@@ -125,8 +120,9 @@ const projects = [
         color: '#6D11EE',
       },
     ],
-    sourceCode: 'https://github.com/gandhipruthvi/MERN_Project',
-    livePreview: '',
+    sourceCode: 'https://github.com/gandhipruthvi/portfolio',
+    livePreview:
+      'http://portfolio-bucket-2247.s3-website.ca-central-1.amazonaws.com/',
   },
   {
     name: 'Best Bid',
