@@ -17,7 +17,9 @@ const ExperienceContainer = ({ experience }) => (
       </ul>
     )}
 
-    {experience.duration && <p>{experience.duration}</p>}
+    {experience.duration && (
+      <p className='experience__duration'>{experience.duration}</p>
+    )}
   </div>
 )
 

@@ -12,6 +12,7 @@
 
 .experience__description {
   margin-top: 1em;
+  text-align: left;
 }
 
 .experience__stack {
@@ -30,4 +31,8 @@
 
 .experience .link--icon {
   margin-left: 0.5em;
+}
+
+.experience__duration {
+  text-align: center !important;
 }

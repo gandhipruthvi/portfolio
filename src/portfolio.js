@@ -76,21 +76,21 @@ const experiences = [
   {
     position: 'Web Developer Internship',
     description:
-      '• Working with a business for over 4 months to develop a unique application to serve their customers. • Building a web app using WordPress as our CMS, using existing plugins, and creating unique methods and plugins of our own. • Working closely with the CEO to understand his requirements and mainly working on the backend for the team. • Helping other teammates to integrate the project with the database.',
+      '• Working with a business for over 4 months to develop a unique application to serve their customers.\n• Building a web app using WordPress as our CMS, using existing plugins, and creating unique methods and plugins of our own.\n• Working closely with the CEO to understand his requirements and mainly working on the backend for the team.\n• Helping other teammates to integrate the project with the database.',
     employeer: 'Cyglera Health Systems Inc., Niagara Falls, Ontario, Canada',
     duration: 'Jan 2022 - Apr 2022',
   },
   {
     position: 'Full Stack Developer',
     description:
-      '• A core team member, working mainly on the Laravel projects. • Developing Laravel websites and integrating them with front-end frameworks like Vue.js. • Working on different online websites creating platforms such as WordPress, Shopify, and many more. • Creating RESTful services for android applications and deploying websites using different web hosting. • Integrating social media logins for different web applications depending on customer requirements. • Handling the communication with the consumers to meet the website requirements.',
+      '• A core team member, working mainly on the Laravel projects.\n• Developing websites and integrating them with front-end frameworks like Vue.js. Working on different online website creating platforms such as WordPress, Shopify, and many more.\n• Creating RESTful services for android applications and deploying websites using different web hosting.\n• Integrating social media logins for different web applications depending on customer requirements.\n• Handling the communication with the consumers to meet the website requirements.',
     employeer: 'Daydreamsoft LLP, Surat, Gujarat, India',
     duration: 'Oct 2019 - Jul 2020',
   },
   {
     position: 'Web Developer Intern',
     description:
-      '• Developed an online tutoring website, allowing students to learn from anyone around the world, while the tutors can teach the whole world. • Implemented 2 interface designs for two different users, along with a payment system for tutors to get fruitful value for sharing their knowledge. • Designed a complex database to attribute all the requirements and implemented MVC architecture to comply with modern software practices.',
+      '• Developed an online tutoring website, allowing students to learn from anyone around the world, while the tutors can teach the whole world.\n• Implemented 2 interface designs for two different users, along with a payment system for tutors to get fruitful value for sharing their knowledge.\n• Designed a complex database to attribute all the requirements and implemented MVC architecture to comply with modern software practices.',
     employeer: 'Ashvi Consultancy Service, Surat, Gujarat, India',
     duration: 'Dec 2018 - Apr 2019',
   },
@@ -102,7 +102,7 @@ const projects = [
   {
     name: 'Portfolio',
     description:
-      '• A simple personal portfolio websites which you are currently viewing. Is developed in React with good features like light/dark mode(try clicking on the top right corner sun symbol. P.S. ), tab segments, responsive views and many more. It is hosted on AWS Cloud using continuos integration and continuous deployment(CI/CD) on Amazon S3 Bucket',
+      '• A simple personal portfolio websites which you are currently viewing, Is developed in React with good features like light/dark mode(try clicking on the sun symbol in the top right corner. P.S. It might be too bright.), tab segments, responsive views and many more.\n• It is hosted on AWS Cloud using continuous integration and continuous deployment(CI/CD) on Amazon S3 Bucket',
     stack: [
       {
         name: 'React.js',
@@ -127,7 +127,7 @@ const projects = [
   {
     name: 'Best Bid',
     description:
-      '• Developed a website that took the bidding experience from in-person to online. The pandemic gave us the idea to recreate the bidding system, where people can easily enjoy bidding from their homes.•	Leading a team of 5 people, we created the rules which would replicate the official bidding system but made it more flexible.•	Implemented a rule where 2 hours is the winning time difference, minimum price increase, and fixed starting amount.•	Architected the whole front-end design in React.js, engineered a REST API in Express.js, and hosted the website on Heroku.',
+      '• Developed a website that took the bidding experience from in-person to online. The pandemic gave us the idea to recreate the bidding system, where people can easily enjoy bidding from their homes.\n• Leading a team of 5 people, we created the rules which would replicate the official bidding system but made it more flexible.\n• Implemented a rule where 2 hours is the winning time difference, minimum price increase, and fixed starting amount.\n• Architected the whole front-end design in React.js, engineered a REST API in Express.js, and hosted the website on Heroku.',
     stack: [
       {
         name: 'React.js',
@@ -156,7 +156,7 @@ const projects = [
   {
     name: 'Calisthenics',
     description:
-      '•	With a team of 5 people, assembled a fitness app that focused on exercising using our body weight. •	Having a fit and healthy body increases brain functioning by 2 times, hence we developed an app using which people can exercise in their homes without any equipment. •	Implemented features like a detailed schedule for personal workouts depending on the measurements of the body, video representation of exercises for better understanding, receiving awards on successful completion of routines, and sharing the achievements with your friends on social media.',
+      '• With a team of 5 people, assembled a fitness app that focused on exercising using our body weight.\n• Having a fit and healthy body increases brain functioning by 2 times, hence we developed an app using which people can exercise in their homes without any equipment.\n• Implemented features like a detailed schedule for personal workouts depending on the measurements of the body, video representation of exercises for better understanding, receiving awards on successful completion of routines, and sharing the achievements with your friends on social media.',
     stack: [
       {
         name: 'Android',
@@ -180,7 +180,7 @@ const projects = [
   {
     name: 'Urban Shiksha',
     description:
-      '• Coded an online tutoring platform where students can learn from tutors around the world. •	Segregated the website into 2 parts, the student portal and the tutor portal. •	Implemented MVC architecture, with online video viewing capabilities. •	Integrated a payment system that would motivate tutors to create more content helping students to learn things.',
+      '• Coded an online tutoring platform where students can learn from tutors around the world.\n• Segregated the website into 2 parts, the student portal and the tutor portal.\n• Implemented MVC architecture, with online video viewing capabilities.\n• Integrated a payment system that would motivate tutors to create more content helping students to learn things.',
     stack: [
       {
         name: 'PHP',
