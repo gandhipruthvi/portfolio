@@ -8,7 +8,7 @@ const Educations = () => {
 
   return (
     <section id='educations' className='section educations'>
-      <h2 className='section__title'>educations</h2>
+      <h2 className='section__title'>education</h2>
 
       <div className='educations__grid'>
         {educations.map((education) => (
