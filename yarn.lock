@@ -8187,10 +8187,10 @@
   "resolved" "https://registry.npmjs.org/node-releases/-/node-releases-2.0.10.tgz"
   "version" "2.0.10"
 
-"node@18.15.0":
-  "integrity" "sha512-y6G6jOU7iZ4QjFLCc1srvPBtk+K8Lak0JbNS6ocGSAI30+wvIWaolbhj3f+jqOv58gSIAlDMyTJckQO9lD5wwQ=="
-  "resolved" "https://registry.npmjs.org/node/-/node-18.15.0.tgz"
-  "version" "18.15.0"
+"node@16.10.0":
+  "integrity" "sha512-SXcqz3j4AOFMPPsd0bXDpQY95Xm8mnJ7PbBhJKEvp+aPYoVH38QAHha59EAuRaiASaSLWt5sP0oDCMzzaSmEAA=="
+  "resolved" "https://registry.npmjs.org/node/-/node-16.10.0.tgz"
+  "version" "16.10.0"
   dependencies:
     "node-bin-setup" "^1.0.0"
 
