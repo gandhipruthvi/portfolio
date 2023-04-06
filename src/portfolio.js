@@ -74,24 +74,25 @@ const experiences = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    position: 'Web Developer Internship',
+    position: 'Web Developer',
     description:
-      '• Working with a business for over 4 months to develop a unique application to serve their customers.\n• Building a web app using WordPress as our CMS, using existing plugins, and creating unique methods and plugins of our own.\n• Working closely with the CEO to understand his requirements and mainly working on the backend for the team.\n• Helping other teammates to integrate the project with the database.',
-    employeer: 'Cyglera Health Systems Inc., Niagara Falls, Ontario, Canada',
+      '• Developed a responsive web application for a medical client using WordPress, PHP, and custom plugins, featuring an intuitive UI and seamless navigation for optimal user experience across devices.\n• Delivered the end-to-end website development process within 3 months, including designing multiple screens and UI components, and constructing both the admin panel and user side.\n• Incorporated Zoom video calling for live sessions, managed database server and handled website hosting.\n• Created a scalable, industry-specific database from scratch, meeting all client requirements and allowing for future website updates.',
+    employeer:
+      'Cyglera Health Systems Inc., Niagara Falls, Ontario, Canada (Internship)',
     duration: 'Jan 2022 - Apr 2022',
   },
   {
     position: 'Full Stack Developer',
     description:
-      '• A core team member, working mainly on the Laravel projects.\n• Developing websites and integrating them with front-end frameworks like Vue.js. Working on different online website creating platforms such as WordPress, Shopify, and many more.\n• Creating RESTful services for android applications and deploying websites using different web hosting.\n• Integrating social media logins for different web applications depending on customer requirements.\n• Handling the communication with the consumers to meet the website requirements.',
+      '• Successfully led the development of multiple websites concurrently, collaborating closely with clients to gather requirements and deliver effective solutions that increased company revenue by 5%.\n• Revamped multiple websites by implementing innovative ideas and restructuring, resulting in a 20% increase in client retention and a 12% boost in user experience.\n• Designed and developed over 20 web applications, meticulously adhering to business requirements and technology standards while ensuring efficient and timely delivery.\n• Provided technical expertise by suggesting feasible solutions for new system designs and recommending the latest technologies to optimize performance, leading to enhanced system efficiency and improved user experience.\n• Worked seamlessly with cross-functional teams, developing and implementing project plans that delivered on time and met client expectations.\n• Conducted thorough testing and debugging of all websites and applications, ensuring maximum functionality and optimal performance.\n• Demonstrated strong communication skills, regularly communicating with stakeholders and clients to provide project updates and ensure alignment with business objectives.\n• Actively participated in team meetings, contributing ideas and solutions to improve team performance and drive innovation.\n• Acted as a mentor to junior developers, providing guidance and support to promote their professional growth and development.',
     employeer: 'Daydreamsoft LLP, Surat, Gujarat, India',
     duration: 'Oct 2019 - Jul 2020',
   },
   {
-    position: 'Web Developer Intern',
+    position: 'Web Developer',
     description:
-      '• Developed an online tutoring website, allowing students to learn from anyone around the world, while the tutors can teach the whole world.\n• Implemented 2 interface designs for two different users, along with a payment system for tutors to get fruitful value for sharing their knowledge.\n• Designed a complex database to attribute all the requirements and implemented MVC architecture to comply with modern software practices.',
-    employeer: 'Ashvi Consultancy Service, Surat, Gujarat, India',
+      '• Developed an online tutoring website, allowing students to learn from anyone around the world, while the tutors can teach to the whole world.\n• Implemented 2 interface designs for two different users, along with a payment system for tutors to get the fruitful value for sharing their knowledge.\n• Designed a complex database to attribute all the requirements and implemented MVC architecture to comply with modern software practices.',
+    employeer: 'Ashvi Consultancy Service, Surat, Gujarat, India (Internship)',
     duration: 'Dec 2018 - Apr 2019',
   },
 ]
@@ -99,6 +100,25 @@ const experiences = [
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Kanban Board',
+    description:
+      '• Designed and developed various components of the kanban board to ensure seamless user experience and functionality.\n• Implemented a drag and drop kit using Typescript for the smooth transition of cards between lanes, improving user interaction and efficiency.\n• Utilized React.js and Typescript to create reusable UI components, enabling quick development and easy maintenance of the kanban board.',
+    stack: [
+      {
+        name: 'React.js',
+        icon: 'fa-brands fa-react fa-3x',
+        color: '#4cd8fc',
+      },
+      {
+        name: 'TypeScript',
+        icon: 'fa-brands fa-bootstrap fa-3x',
+        color: '#6D11EE',
+      },
+    ],
+    sourceCode: 'https://github.com/gandhipruthvi/kanban-react',
+    livePreview: 'https://pruthvi-kanban-board-react-typescript.netlify.app/',
+  },
   {
     name: 'Portfolio',
     description:
@@ -121,8 +141,7 @@ const projects = [
       },
     ],
     sourceCode: 'https://github.com/gandhipruthvi/portfolio',
-    livePreview:
-      'http://portfolio-bucket-2247.s3-website.ca-central-1.amazonaws.com/',
+    livePreview: 'https://pruthvi-gandhi-portfolio.netlify.app/',
   },
   {
     name: 'Best Bid',
